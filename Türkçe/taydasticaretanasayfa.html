@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../style.css" />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/c4254e24a8.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- MATERIAL CDN -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+      rel="stylesheet"
+    />
+    <title>Taydaş Ticaret</title>
+  </head>
+  <body onload="slider()" class="bg-gray-100 dark:bg-slate-900">
+    <!-- nav Starts -->
+    <nav class="bg-white shadow-xl drop-shadow-xl dark:bg-slate-800">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="flex justify-between">
+          <div class="flex space-x-7">
+            <div>
+              <a
+                class="flex items-center py-8 px-2 pr-24"
+                href="http://127.0.0.1:5500/T%C3%BCrk%C3%A7e/taydasticaretanasayfa.html"
+              >
+                <img
+                  class="h-8 w-8 mr-2"
+                  src="../img/LOGO_TAYDAS_PNG.png"
+                  alt=""
+                />
+                <span
+                  class="font-semibold text-gray-500 text-lg sm:mr-0 md:mr-0 lg:mr-20 dark:text-blue-400"
+                  >Taydaş Ticaret</span
+                >
+              </a>
+            </div>
+            <div class="hidden md:flex items-center space-x-1">
+              <a
+                class="py-4 px-2 border-blue-400 border-b-4 text-blue-400 font-semibold"
+                href="http://127.0.0.1:5500/T%C3%BCrk%C3%A7e/taydasticaretanasayfa.html"
+                >Anasayfa</a
+              >
+              <a
+                class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-400 transition duration-300"
+                href="http://127.0.0.1:5500/T%C3%BCrk%C3%A7e/taydasticarethakkimizda.html"
+                >Hakkımızda</a
+              >
+              <a
+                class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-400 transition duration-300"
+                href="http://127.0.0.1:5500/T%C3%BCrk%C3%A7e/taydasticaretiletisim.html"
+                >İletişim</a
+              >
+              <!-- Flag Section -->
+              <div class="hidden lg:flex items-center space-x-1">
+                <a
+                  class="py-4 px-2 ml-24 text-gray-500 font-semibold hover:text-blue-400 transition duration-300"
+                  href="http://127.0.0.1:5500/T%C3%BCrk%C3%A7e/taydasticaretanasayfa.html"
+                  ><img
+                    class="w-6 ml-24"
+                    src="../img/Flag_of_Turkey.svg.png"
+                    alt=""
+                /></a>
+                <a
+                  class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-400 transition duration-300"
+                  href="http://127.0.0.1:5500/ing/homepage.html"
+                  ><img
+                    class="w-6"
+                    src="../img/birleik krallık bayrağı.png"
+                    alt=""
+                /></a>
+                <a
+                  class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-400 transition duration-300"
+                  href=""
+                  ><img
+                    class="w-6 mr-24"
+                    src="../img/almanya bayrağı.webp"
+                    alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- nav Ends -->
+    <!-- Site banner Starts -->
+    <div class="banner w-full relative overflow-hidden" style="height: 100vh">
+      <div class="slider w-full absolute top-0" style="height: 100vh">
+        <img
+          src="../img/dükkan2.jpg"
+          alt=""
+          id="slideImg"
+          class="w-full h-full"
+        />
+      </div>
+      <div
+        class="overlay w-full absolute top-0"
+        style="
+          height: 100vh;
+          background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+        "
+      >
+        <div class="content sm:text-center lg:text-left">
+          <h1
+            class="tracking-tight font-extrabold text-4xl sm:text-5xl md:text-6xl mt-24 ml-24"
+          >
+            <span
+              class="block text-7xl text-white dark:text-blue-400 md:mb-7 lg:mb-2"
+              >Taydaş Ticaret</span
+            >
+            <span
+              class="block text-blue-400 xl:inline dark:text-gray-100 md:mb-7 lg:mb-2"
+              >İlhan Taydaş</span
+            >
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- Site banner Ends -->
+    <div class="flex justify-center">
+      <h2 class="text-3xl text-gray-500 mt-52 lg:mb-20 md:mb-10">
+        Röpörtajlar ve Hakkımızda
+      </h2>
+    </div>
+
+    <!-- card Starts -->
+    <!-- card container -->
+    <div
+      class="grid p-10 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 gap-5"
+    >
+      <!-- card 1 -->
+      <div
+        class="md:mb-12 md:p-6 lg:m-auto lg:p-0 rounded-2xl overflow-hidden shadow-2xl bg-white drop-shadow-2xl hover:shadow-none hover:drop-shadow-none dark:bg-slate-800 dark:hover:bg-gray-800"
+      >
+        <img class="w-full md:rounded-2xl" src="../img/dedem-2.jpg" />
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2 dark:text-gray-200">
+            İlhan Taydaş kimdir ?
+          </div>
+        </div>
+        <div class="px-6 pt-4 pb-10">
+          <button
+            class="inline-block bg-blue-400 rounded-full px-4 py-1 font-bold text-white mr-2 mb-2 dark:bg-blue-900 dark:text-gray-200"
+          >
+            Devamını okuyun
+          </button>
+        </div>
+      </div>
+
+      <!-- card 2 -->
+      <div
+        class="md:mb-7 md:p-6 lg:m-auto lg:p-0 rounded-2xl overflow-hidden shadow-2xl bg-white drop-shadow-2xl hover:shadow-none hover:drop-shadow-none dark:bg-slate-800 dark:hover:bg-gray-800"
+      >
+        <img
+          class="w-full dark:bg-gray-100 md:rounded-2xl"
+          src="../img/LOGO_TAYDAS_PNG.png"
+          alt=""
+        />
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2 dark:text-gray-200">
+            Bayiliklerimiz
+          </div>
+        </div>
+        <div class="px-6 pt-4 pb-10">
+          <a
+            href="http://127.0.0.1:5500/T%C3%BCrk%C3%A7e/bayiliklerimiz.html"
+            class="inline-block bg-blue-400 rounded-full px-4 py-1 font-bold text-white mr-2 mb-2 dark:bg-blue-900 dark:text-gray-200"
+          >
+            Devamını okuyun
+          </a>
+        </div>
+      </div>
+
+      <!-- card 3 -->
+      <div
+        class="md:mb-7 md:p-6 lg:m-auto lg:p-0 rounded-2xl overflow-hidden shadow-2xl bg-white drop-shadow-2xl hover:shadow-none hover:drop-shadow-none dark:bg-slate-800 dark:hover:bg-gray-800"
+      >
+        <img class="w-full md:rounded-2xl" src="../img/dedem-1.jpg" alt="" />
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2 dark:text-gray-200">
+            İlhan Taydaş Kale Kilit ile Röpörtajı
+          </div>
+        </div>
+        <div class="px-6 pt-4 pb-10">
+          <a
+            href="http://127.0.0.1:5500/T%C3%BCrk%C3%A7e/kalekilitr%C3%B6portaj.html"
+            class="inline-block bg-blue-400 rounded-full px-4 py-1 font-bold text-white mr-2 mb-2 dark:bg-blue-900 dark:text-gray-200"
+          >
+            Devamını okuyun
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- banner Stars -->
+    <div
+      class="py-20 mt-40 h-screen bg-no-repeat bg-cover bg-center"
+      style="
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.6)
+          ),
+          url('../img/dükkan.png');
+      "
+    >
+      <div class="container mx-auto px-6 mt-40">
+        <h2 class="text-4xl font-bold text-white mb-2">Taydaş Ticaret</h2>
+        <h3 class="text-2xl text-gray-200">Kadıköy / İstanbul</h3>
+        <br />
+        <br />
+        <a
+          href="http://127.0.0.1:5500/T%C3%BCrk%C3%A7e/taydasticaretiletisim.html"
+          class="text-white shadow-lg uppercase border-2 px-8 py-4 font-bold tracking-wider hover:bg-white hover:text-black dark:hover:bg-slate-900 dark:hover:text-white"
+        >
+          Konumu gör
+        </a>
+      </div>
+    </div>
+    <!-- banner Ends -->
+    <!-- Text Content Starts -->
+    <div
+      class="mt-10 px-4 md:mt-16 mx-auto max-w-7xl lg:mt-24 lg:px-4 xl:mt-36 py-20"
+    >
+      <div class="sm:text-center lg:text-left">
+        <h1
+          class="tracking-tight font-extrabold text-4xl sm:text-5xl md:text-6xl mb-8"
+        >
+          <span class="block text-7xl dark:text-blue-400 md:mb-7 lg:mb-2"
+            >Taydaş Ticaret</span
+          >
+          <span
+            class="block text-blue-400 xl:inline dark:text-gray-100 md:mb-7 lg:mb-2"
+            >İlhan Taydaş</span
+          >
+        </h1>
+        <div
+          class="text-base md:text-xl sm:mt-5 sm:max-w-xl sm:mx-auto lg:mx-0 lg:px-2 lg:mt-24"
+        >
+          <span class="sm:text-xl lg:text-4xl text-blue-400">"</span>
+          <p class="text-gray-500 sm:text-lg lg:text-xl">
+            HEDEFLERİMİZE İLERLERKEN DOĞRU VE DÜRÜST BİR YOL İZLEMEK EN BÜYÜK
+            GAYEMİZDİR
+          </p>
+          <span class="sm:text-xl lg:text-4xl text-blue-400">"</span>
+        </div>
+        <div
+          class="sm:mt-8 lg:mt-24 sm:flex sm:justify-center lg:justify-starts"
+        >
+          <div class="md:m-2">
+            <a
+              class="flex justify-center rounded-md bg-blue-400 text-white px-8 py-3 animate-bounce"
+              href="http://127.0.0.1:5500/T%C3%BCrk%C3%A7e/taydasticaretanasayfa.html"
+              ><i class="fa-solid fa-arrow-up text-lg animate-bounce"></i
+            ></a>
+          </div>
+          <div class="md:m-2 lg:mt-6">
+            <a
+              class="flex justify-center rounded-md bg-blue-100 text-blue-700 px-8 py-3"
+              href="#"
+              ><i class="fa-solid fa-arrow-down text-lg animate-bounce"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Text Content Ends -->
+    <!-- banner Stars -->
+    <div
+      class="py-20 cursor-default mt-32 bg-no-repeat bg-cover bg-center"
+      style="
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.8)
+          ),
+          url('../img/dükkan2.jpg');
+      "
+    >
+      <div class="container mx-auto px-6">
+        <a
+          href="http://127.0.0.1:5500/T%C3%BCrk%C3%A7e/taydasticaretiletisim.html"
+          class="text-4xl font-bold text-white mb-2"
+        >
+          Bizimle iletişime geçin
+        </a>
+        <!-- -icons- -->
+        <div class="flex felx-col items-center mt-12 sm:flex-col md:flex-row">
+          <!-- Right Section -->
+          <div class="basis-1/2">
+            <div class="flex flex-col xl:inline text-gray-200">
+              <span
+                class="fa-sharp fa-solid fa-location-dot text-lg text-red-700"
+              ></span>
+              <span class="text-lg ml-4"
+                >Adres : Osmanağa, Çuhadarağa Sk. No:3, 34714
+                Kadıköy/İstanbul</span
+              >
+            </div>
+
+            <div class="text-gray-200 mt-6">
+              <span
+                class="fa-sharp fa-solid fa-phone text-lg text-green-500"
+              ></span>
+              <span class="text-lg ml-4">Telefon : (0216) 414 39 14</span>
+            </div>
+
+            <div class="text-gray-200 mt-6">
+              <span
+                class="fa-sharp fa-solid fa-envelope text-lg text-blue-500"
+              ></span>
+              <span class="text-lg ml-4"
+                >Mail adresi : taydasticaret@hotmail.com</span
+              >
+            </div>
+          </div>
+          <!-- Left Section -->
+          <div class="gap-4 basis-1/2">
+            <!-- copyright -->
+            <p class="text-lg text-gray-200">
+              TM &copy; 2023 - Taydaş Ticaret Limited Şirketi - Tüm Hakları
+              Saklı Tutar
+            </p>
+            <p class="text-md mt-4 text-gray-300">
+              Web Tasarım : Can Kotaman +905303552462
+            </p>
+            <p class="text-xs text-gray-300">
+              Fotoğraf editörü : Ömer Faruk Balcı +905321655059
+            </p>
+            <!-- copyright -->
+          </div>
+        </div>
+        <!-- -icons- -->
+      </div>
+    </div>
+    <!-- banner Ends -->
+    <br />
+    <br />
+    <script src="../js/banner.js"></script>
+  </body>
+</html>
